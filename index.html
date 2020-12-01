@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="all"/>
+	<meta name="keywords" Content="">
+	<meta name="description" content="">
+	<meta name="author" content="Estefania Soldati">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	<title>Harry Potter</title>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="./styles/styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bubblegum+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<nav></nav>
+
+	<main>
+    <section class="hero">
+      <div class="welcome">
+        <div class="text">
+          <h2 class="welcomeH2">Welcome wizards</h2>
+          <div class="hero-information">
+            <label>What is your full name?</label>
+            <input type="text" name="" class="hero-name">
+            <button class="button-hero">Start the adventure!</button>
+          </div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+    </section>
+    <section class="sorting-hat">
+      <div class="hat-container">
+        <div class="hat"></div>
+        <p class="text-discovery">Touch the hat and discover which is your Hogwarts's house</p>
+      </div>
+      <div class="overlay"></div>
+    </section>
+    <section class="houses">
+      <div class="logo-container">
+        <div class="logo"></div>
+        <p class="text-house">Congratulations your Hogwarts house is <span class="house"></span>!</p>
+        <button class="house-button">Now find out which is your wand!</button>
+      </div>
+      <div class="overlay"></div>
+    </section>
+    <section class="wand hide">
+      <div class="letter-container">
+        <p>Woow your wand has chosen you, and it's amazing, look at its materials:</p>
+        <p>Wood: <span class="wood"></span></p>
+        <p>Core: <span class="core"></span></p>
+      </div>
+      <button class="wand-button">Now your wand can learn 5 amazing spells!</button>
+      <div class="overlay"></div>
+    </section>
+    <section class="spells hide">
+      <p>Congratulations you learn this greatgull spells:</p>
+      <p class="spells-5"></p>
+    </section>
+    <section class="go">
+      <h3>Congratulations you're ready to go to Hogwarts</h3>
+      <p>Let's make a summary about you!</p>
+      <li>
+        <ol>Name: <span class="name"></span></ol>
+        <ol>House: <span class="go-house"></span></ol>
+        <ol>Wand: <span class="go-wood"></span> and<span class="go-core"></span></ol>
+        <ol>Best spells: <span class="go-spell"></span></ol>
+        <ol>Friends: <span class="go-friends"></span></ol>
+      </li>
+      <div class="overlay"></div>
+    </section>
+  </main>
+
+	<footer></footer>
+
+	<!-- jQuery V3.3.1 -->
+	<script src="./scripts/jQuery-V3.3.1.min.js"></script>
+	<!-- Custom-Scripts -->
+	<script src="./scripts/scripts.js"></script>
+</body>
+</html>

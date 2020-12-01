@@ -1,0 +1,69 @@
+/*
+	RESET
+*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block;}
+body{line-height: 1;}
+ol, ul{list-style: none;}
+blockquote, q{quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after{content: '';content: none;}
+table{border-collapse: collapse;border-spacing: 0;}
+
+/*
+	GENERAL STYLES
+*/
+*{ -webkit-box-sizing: border-box;box-sizing: border-box}
+ul{list-style-type: none}
+a,
+a:hover{text-decoration: none;color: inherit}
+body{font-family: 'Bubblegum Sans', cursive;}
+
+.flex{display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+.hide{display: none;}
+.disabled{pointer-events: none;}
+.overlay{position: absolute;width: 100%;height: 100%;left: 0;top: 0;opacity: 0.5;background: #000;}
+
+/* HERO */
+.hero .welcome{background-image: url(../assets/images/principal.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 19.5em; position: relative;display: flex; justify-content: center; align-items: center;}
+.hero .text{line-height: 11em;position: absolute; display: flex; flex-direction: column; justify-content: center; align-items: center;z-index: 1;}
+.hero .text h2{margin-bottom: 1em;text-align: center; color: white; font-size: 5em; letter-spacing: 0.1em; display: none;}
+.hero input{background: #00000042; padding:1em 1.5em; color: #ead030;}
+.hero .hero-information{display: flex; flex-direction: column; align-items: center; justify-content: center;}
+.hero label{margin: -3em; color: #d6be1d;font-size: 1.5em; letter-spacing: 0.1em;}
+.hero button,
+.houses button{margin-top: 2em;padding: 0.8em 2em; border-radius: 0.4em; border: none; background: #f9dc0fc7; color: #841818f7; font-size: 1em; font-weight: 700;}
+
+/* SORTING HAT */
+.sorting-hat{background-image: url(../assets/images/hero2.jpg);background-size: cover; background-position: center; background-repeat: no-repeat; padding: 9.5em; flex-direction: column; justify-content: center; align-items: center; display: none;}
+.sorting-hat p{color: white;text-align: center; font-size: 2em; margin-top: 1em;}
+.sorting-hat .hat{ background-image: url(../assets/images/hat3.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 8em; width: 35%; height: auto; margin: auto;}
+.hat-container{z-index: 1;position: relative;}
+
+/* HOUSES */
+.houses{background-image: url(../assets/images/house.jpg);background-size: cover; background-position: center; background-repeat: no-repeat; padding: 7.5em;}
+.houses .logo{text-align: center;}
+.houses .logo-container{text-align: center;position: relative; z-index: 1}
+.houses .text-house{text-align: center; padding-top: 1em; font-size: 2.3em; letter-spacing: 0.05em;color: white;}
+.houses{display: none;}
+
+/* WAND */
+.wand{background-image: url(../assets/images/hero-1.jpg);background-size: cover; background-position: center; background-repeat: no-repeat; padding: 10em;}
+.wand .letter-container{color: white; font-size: 2.5em; letter-spacing: 0.03em; line-height: 1.5em; max-width: 70%;}
+.wand button{margin-top: 2em; padding: 0.5em 0.5em; border-radius: 0.4em; border: none; background: #8c0202cc; color: #ffe000f7; font-size: 1.05em;}
+.wand .letter-container,
+.wand button{z-index: 1; position: relative;}
+
+/* SPELLS */
+.spells{background-image: url(../assets/images/welcome.jpg);background-size: cover; background-position: center; background-repeat: no-repeat; padding: 10em;}}
+
+
+/* CHARACTER */
+.character{display: none;}
+
+/* GO */
+.go{background-image: url(../assets/images/train.jpg);background-size: cover; background-position: center; background-repeat: no-repeat; padding: 1.5em;}
+.go{font-size: 3em;color: white;line-height: 1.3em; position: relative;}
+.go li{font-family: 'Amatic SC', cursive;}
+.go h3,
+.go p,
+.go li{z-index: 1;position: relative;}

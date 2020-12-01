@@ -1,0 +1,27 @@
+
+// spells 
+
+$.ajax({
+  type: 'GET',
+  url: 'https://www.potterapi.com/v1/spells?key=$2a$10$Oukoqh9UVruaCXKEuk6vc.pLrKTI6kcj8I5fn9crzUI1KMW2CwIYy',
+  success: function(response) {
+    console.log(response)
+  },
+  error: function(status) {
+    console.warn( 'ERROR', status );
+  }
+});
+
+
+// characters
+
+$.ajax({
+  type: 'GET',
+  url: 'https://www.potterapi.com/v1/characters?key=$2a$10$Oukoqh9UVruaCXKEuk6vc.pLrKTI6kcj8I5fn9crzUI1KMW2CwIYy',
+  success: function(response) {
+    console.log(response)
+  },
+  error: function(status) {
+    console.warn( 'ERROR', status );
+  }
+});
